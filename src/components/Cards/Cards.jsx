@@ -47,6 +47,8 @@ const Cards = () => {
                 intermedia: español[0].intermedia,
                 dificil: español[0].dificil,
                 muyDificil: español[0].muyDificil,
+                modoOscuro: español[0].modoOscuro,
+                modoClaro: español[0].modoClaro
             })
         } else {
             setSubtitulos({
@@ -63,7 +65,9 @@ const Cards = () => {
                 facil: ingles[0].facil,
                 intermedia: ingles[0].intermedia,
                 dificil: ingles[0].dificil,
-                muyDificil: ingles[0].muyDificil
+                muyDificil: ingles[0].muyDificil,
+                modoOscuro: ingles[0].modoOscuro,
+                modoClaro: ingles[0].modoClaro
             })
         }
     }, [idiomaSeleccionado]);
@@ -227,7 +231,7 @@ const Cards = () => {
                             alignItems: 'center',
                         }}
                         onClick={toggleDarkMode}>
-                        {darkMode ? 'Light Mode' : 'Dark Mode'}
+                        {darkMode ? subtitulos.modoClaro : subtitulos.modoOscuro }
                         {darkMode ? <AiFillSun style={{ margin: "0 0 0 5px" }} /> : <FaMoon style={{ margin: "0 0 0 5px" }} />}
                     </button>
 
@@ -274,7 +278,6 @@ const Cards = () => {
                 {cards.length === 0 &&
                     <div className='contenedor-espera'>
                         <div className="imagen-espera">
-                            {/* <img src="/public/img/pikachu-pensativo.png" alt="Imagen de espera" /> */}
                             <img src="/img/homero-pensando.png" alt="Imagen de espera" />
                         </div>
                         <div className="dificultad">

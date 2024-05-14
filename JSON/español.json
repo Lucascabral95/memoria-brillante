@@ -11,11 +11,13 @@
         "botonDecision": "Si",
         "botonDecisionDos": "No",
         "dificultadPalabra": "Dificultad",
-        "eleccionDeDificultad": "Esperando dificultad",
+        "eleccionDeDificultad": "Esperando una dificultad",
         "muyFacil": "Muy Fácil",
         "facil": "Fácil",
         "intermedia": "Intermedia",
         "dificil": "Difícil",
-        "muyDificil": "Muy Difícil"
+        "muyDificil": "Muy Difícil",
+        "modoOscuro": "Modo Oscuro",
+        "modoClaro": "Modo Claro"
     }
 ]

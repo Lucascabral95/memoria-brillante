@@ -16,6 +16,8 @@
         "facil": "Easy",
         "intermedia": "Intermeadite",
         "dificil": "Difficult",
-        "muyDificil": "Very Difficult"
+        "muyDificil": "Very Difficult",
+        "modoOscuro": "Dark Mode",
+        "modoClaro": "Light Mode"
     }
 ]
