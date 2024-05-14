@@ -228,7 +228,7 @@ const Cards = () => {
                             color: !darkMode ? "#FEC7EE" : "#232323",
                             fontWeight: 600,
                             display: 'flex',
-                            alignItems: 'center',
+                            alignItems: 'center'
                         }}
                         onClick={toggleDarkMode}>
                         {darkMode ? subtitulos.modoClaro : subtitulos.modoOscuro }

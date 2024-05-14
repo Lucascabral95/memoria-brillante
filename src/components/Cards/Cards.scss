@@ -1,6 +1,6 @@
 main {
     padding-bottom: 3.2%;
-    
+
     .contenedor-del-main {
         max-width: 1200px;
         margin: auto;
@@ -167,6 +167,21 @@ main {
     }
 }
 
+@media (max-width: 409px) {
+    main {
+
+        .contenedor-del-main {
+
+            .botones {
+                
+                button {
+                    margin: 14px 6px 0 6px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 541px) {
     main {
         padding: 0 6px;
@@ -175,12 +190,12 @@ main {
 
             .contenedor-espera {
 
-          .dificultad{
+                .dificultad {
 
-            span{
-              font-size: 22px;
-            }
-          }
+                    span {
+                        font-size: 22px;
+                    }
+                }
 
                 .imagen-espera {
                     width: 100%;
