@@ -1,0 +1,37 @@
+body {
+    --darkMode-bg: #232323;
+    --darkMode-text-color: white;
+    --lightMode-bg: white;
+    --lightMode-text-color: black;
+    user-select: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .titulo {
+        width: 100%;
+        padding-top: 22px;
+        margin: 0 0 2% 0;
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        height: auto;
+
+        .titulo {
+            padding-top: 5.2%;
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+    }
+}

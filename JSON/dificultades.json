@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "dificultadLarga": "muyFacil",
+        "dificultadCorta": "Muy fácil",
+         "imagen": "/img/mode-muy-facil.png"
+    },
+    {
+        "id": 2,
+        "dificultadLarga": "fácil",
+        "dificultadCorta": "Fácil",
+         "imagen": "/img/mode-facil.png"
+    },
+    {
+        "id": 3,
+        "dificultadLarga": "intermedia",
+        "dificultadCorta": "Intermedia",
+         "imagen": "/img/mode-intermedio.png"
+    },
+    {
+        "id": 4,
+        "dificultadLarga": "difícil",
+        "dificultadCorta": "Difícil",
+         "imagen": "/img/mode-dificil.png"
+    },
+    {
+        "id": 5,
+        "dificultadLarga": "muyDificil",
+        "dificultadCorta": "Muy difícil",
+         "imagen": "/img/mode-muy-dificil.png"
+    }
+]

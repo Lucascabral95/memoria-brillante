@@ -1,0 +1,21 @@
+[
+    {
+        "titulo": "Bright Memory",
+        "intentos": "Failed attempts",
+        "dificultadPregunta": "What difficulty do you wish to play on?",
+        "textoFooter": "Passionately crafted by Lucas Cabral",
+        "botonModoOscuro": "Dark Mode",
+        "bontonLimpiar": "To clean",
+        "felicitacionTitulo": "Congratulations, you have completed the game!",
+        "felicitacionesTexto": "Would you like to play again?",
+        "botonDecision": "Yes",
+        "botonDecisionDos": "No",
+        "dificultadPalabra": "Difficulty",
+        "eleccionDeDificultad": "Waiting for difficulty",
+        "muyFacil": "Very Easy",
+        "facil": "Easy",
+        "intermedia": "Intermeadite",
+        "dificil": "Difficult",
+        "muyDificil": "Very Difficult"
+    }
+]

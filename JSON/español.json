@@ -1,0 +1,21 @@
+[
+    {
+        "titulo": "Memoria Brillante",
+        "intentos": "Intentos fallidos",
+        "dificultadPregunta": "¿A qué dificultad deseas jugar?",
+        "textoFooter": "Desarrollador con pasión por Lucas Cabral",
+        "botonModoOscuro": "Modo oscuro",
+        "bontonLimpiar": "Limpiar",
+        "felicitacionTitulo": "¡Felicidades, has completado el juego!",
+        "felicitacionesTexto": "¿Te gustaría jugar otra vez?",
+        "botonDecision": "Si",
+        "botonDecisionDos": "No",
+        "dificultadPalabra": "Dificultad",
+        "eleccionDeDificultad": "Esperando dificultad",
+        "muyFacil": "Muy Fácil",
+        "facil": "Fácil",
+        "intermedia": "Intermedia",
+        "dificil": "Difícil",
+        "muyDificil": "Muy Difícil"
+    }
+]
