@@ -1,12 +1,12 @@
 import "./Footer.scss"
 import { FaGithub, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
-import storeZustand from '../../../zusntand';
+import storeZustand from '../../../zusntand.jsx';
 import español from "../../../../JSON/español.json"
 import ingles from "../../../../JSON/ingles.json"
 
 const Footer = () => {
   const { darkMode, idiomaSeleccionado } = storeZustand();
-  
+
   return (
     <footer className='footer'>
       <div className="contenedor">
