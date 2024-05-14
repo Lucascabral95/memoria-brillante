@@ -275,7 +275,7 @@ const Cards = () => {
                     <div className='contenedor-espera'>
                         <div className="imagen-espera">
                             {/* <img src="/public/img/pikachu-pensativo.png" alt="Imagen de espera" /> */}
-                            <img src="/public/img/pika-electrico.png" alt="Imagen de espera" />
+                            <img src="/public/img/homero-pensando.png" alt="Imagen de espera" />
                         </div>
                         <div className="dificultad">
                             <span
