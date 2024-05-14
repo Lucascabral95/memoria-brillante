@@ -271,13 +271,11 @@ const Cards = () => {
 
                 <ToastContainer />
 
-                <h1> Sexto commit </h1>
-
                 {cards.length === 0 &&
                     <div className='contenedor-espera'>
                         <div className="imagen-espera">
                             {/* <img src="/public/img/pikachu-pensativo.png" alt="Imagen de espera" /> */}
-                            <img src="https://i.pinimg.com/564x/7b/66/d0/7b66d07300edcc568bbdaed0353e15b0.jpg" alt="Imagen de espera" />
+                            <img src="/img/homero-pensando.png" alt="Imagen de espera" />
                         </div>
                         <div className="dificultad">
                             <span
