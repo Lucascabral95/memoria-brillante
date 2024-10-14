@@ -5,8 +5,8 @@
 Instalar generador-de-colores con npm
 
 ```bash
-  git clone https://github.com/Lucascabral95/pokedex-by-lucas-cabral.git
-  cd pokedex
+  git clone https://github.com/Lucascabral95/memoria-brillante.git
+  cd memotest
   npm install 
   npm run dev
 ```
